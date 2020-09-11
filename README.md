@@ -3,3 +3,5 @@
 *To predict stock open prices of list of companies.
 
 *Traders get an estimate of open price before trading begins.
+
+
