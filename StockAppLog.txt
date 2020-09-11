@@ -1,0 +1,91 @@
+06-17 16:46 root         INFO     Fetching Real-time data..
+06-17 16:46 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:46 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/ESCORTS.NS?p=ESCORTS.NS&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:47 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:47 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/%5ENSEI?p=%5ENSEI&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:47 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:47 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/%5EHSI?p=%5EHSI&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:47 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:47 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/%5EKS11?p=%5EKS11&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:47 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:47 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/%5EN100?p=%5EN100&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:47 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:47 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/%5EIXIC?p=%5EIXIC&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:47 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:47 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/MUTHOOTFIN.NS?p=MUTHOOTFIN.NS&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:49 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:49 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/SBIN.NS?p=SBIN.NS&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:51 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:51 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/HCLTECH.NS?p=HCLTECH.NS&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:52 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:52 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/ICICIBANK.NS?p=ICICIBANK.NS&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:52 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): in.finance.yahoo.com:443
+06-17 16:52 urllib3.connectionpool DEBUG    https://in.finance.yahoo.com:443 "GET /quote/%5EN225?p=%5EN225&.tsrc=fin-srch HTTP/1.1" 200 None
+06-17 16:52 root         INFO     Real-time data Scraping Completed
+06-17 16:54 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+06-17 16:58 root         INFO     Opening Home page 
+06-17 16:58 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 16:58:15] "[37mGET / HTTP/1.1[0m" 200 -
+06-17 16:58 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 16:58:16] "[37mGET /predict HTTP/1.1[0m" 200 -
+06-17 16:58 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 16:58:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+06-17 16:58 root         INFO     Index(['NIFTY_India Adj Close', 'Muthoot Adj Close', 'Euronext Adj Close',
+       'NASDAQ Adj Close'],
+      dtype='object')
+06-17 16:58 root         INFO     Prediction Completed.. 
+06-17 16:58 root         INFO     987.841
+06-17 16:58 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 16:58:22] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 16:59 root         INFO     Index(['NIFTY_India Adj Close', 'Escorts Adj Close', 'HangSeng Open',
+       'KOSPI Open'],
+      dtype='object')
+06-17 16:59 root         INFO     Prediction Completed.. 
+06-17 16:59 root         INFO     962.677
+06-17 16:59 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 16:59:14] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 16:59 root         INFO     Index(['NIFTY_India Adj Close', 'Muthoot Adj Close', 'Euronext Adj Close',
+       'NASDAQ Adj Close'],
+      dtype='object')
+06-17 16:59 root         INFO     Prediction Completed.. 
+06-17 16:59 root         INFO     987.841
+06-17 16:59 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 16:59:18] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 17:00 root         INFO     Index(['NIFTY_India Adj Close', 'SBI Adj Close', 'HangSeng Open',
+       'Euronext Adj Close'],
+      dtype='object')
+06-17 17:00 root         INFO     Prediction Completed.. 
+06-17 17:00 root         INFO     171.63
+06-17 17:00 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:00:03] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 17:03 root         INFO     Index(['NIFTY_India Adj Close', 'ICICI Adj Close', 'Euronext Adj Close',
+       'Nikkei Open'],
+      dtype='object')
+06-17 17:03 root         INFO     Prediction Completed.. 
+06-17 17:03 root         INFO     348.343
+06-17 17:03 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:03:19] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 17:04 root         INFO     Opening Home page 
+06-17 17:04 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:04:16] "[37mGET / HTTP/1.1[0m" 200 -
+06-17 17:04 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:04:26] "[37mGET /predict HTTP/1.1[0m" 200 -
+06-17 17:04 root         INFO     Index(['NIFTY_India Adj Close', 'HCL Adj Close', 'HangSeng Open',
+       'Euronext Adj Close'],
+      dtype='object')
+06-17 17:04 root         INFO     Prediction Completed.. 
+06-17 17:04 root         INFO     579.239
+06-17 17:04 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:04:31] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 17:04 root         INFO     Opening Home page 
+06-17 17:04 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:04:34] "[37mGET / HTTP/1.1[0m" 200 -
+06-17 17:09 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:09:37] "[37mGET /predict HTTP/1.1[0m" 200 -
+06-17 17:09 root         INFO     Index(['NIFTY_India Adj Close', 'SBI Adj Close', 'HangSeng Open',
+       'Euronext Adj Close'],
+      dtype='object')
+06-17 17:09 root         INFO     Prediction Completed.. 
+06-17 17:09 root         INFO     171.63
+06-17 17:09 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:09:41] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 17:10 root         INFO     Index(['NIFTY_India Adj Close', 'ICICI Adj Close', 'Euronext Adj Close',
+       'Nikkei Open'],
+      dtype='object')
+06-17 17:10 root         INFO     Prediction Completed.. 
+06-17 17:10 root         INFO     348.343
+06-17 17:10 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:10:02] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 17:11 root         INFO     Index(['NIFTY_India Adj Close', 'Muthoot Adj Close', 'Euronext Adj Close',
+       'NASDAQ Adj Close'],
+      dtype='object')
+06-17 17:11 root         INFO     Prediction Completed.. 
+06-17 17:11 root         INFO     987.841
+06-17 17:11 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:11:27] "[37mPOST /predict HTTP/1.1[0m" 200 -
+06-17 17:12 root         INFO     Opening Home page 
+06-17 17:12 werkzeug     INFO     127.0.0.1 - - [17/Jun/2020 17:12:07] "[37mGET / HTTP/1.1[0m" 200 -

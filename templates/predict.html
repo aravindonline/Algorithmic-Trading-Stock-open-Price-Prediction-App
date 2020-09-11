@@ -1,0 +1,47 @@
+<html>
+<title>Stock application form</title>
+<head><center>
+
+<style>
+    a.link-btn {
+        color: #fff;
+        background: #337ab7;
+        display:inline-block;
+        border: 1px solid #2e6da4;        
+        font: bold 14px Arial, sans-serif;
+        text-decoration: none;
+        border-radius: 2px;
+        padding: 6px 20px;
+    }
+    a.link-btn:hover {
+        background-color: #245582;
+        border-color: #1a3e5b;
+    }
+</style>
+
+<h1>Automated Stock Open Price Prediction </h1>
+<h2>**** Tickers for Stocks are given below: ****</h2>
+<h2>Muthoot Finance Ltd: MTH</h2>  
+<h2>State Bank of India: SBI</h2>
+<h2>Escorts Ltd: ESC</h2>
+<h2>HCL Technologies Ltd: HCL</h2>
+<h2>ICICI Bank: ICI</h2>
+</centre></head>
+
+<body bgcolor="silver" background="https://thumbs.dreamstime.com/b/stock-market-chart-silhouette-white-background-d-illustration-grayscale-colors-89625260.jpg">
+<form action = "{{url_for('stock_predict')}}" method="post">
+
+    
+    <p><b>Enter the Stock Ticker (use Upper Case) :</b> <input type="text" name="tick"></p>
+ 
+    <b></b><input type = "submit" value="Predict" />
+    <br>
+    <b><H2>{% for key, value in stock_status.items() %}
+             {{ value }}
+             {% endfor %}</H2></b>
+  
+    <br>
+    <a href="http://127.0.0.1:5000/" class="link-btn">Back to Home Page</a>
+</form>
+</body>
+</html>
